@@ -1,0 +1,90 @@
+// INCULUDE SECTION
+@import "_variable";
+@import "_mixin";
+
+
+// ------------------------------------------- o --------------------------------------------------
+// ---------------------------------------------------------------------------------------------
+
+/*Bootstrap common css */
+html,body
+{
+    scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+span,
+ul,
+ol,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    text-transform: none;
+}
+
+/*Bootstrap common css */
+
+// ------------------------------------------- o --------------------------------------------------
+// ---------------------------------------------------------------------------------------------
+
+
+// --------------------------------- O ------------------------
+// MAIN SASS START HERE
+// --------------------------------- O ------------------------
+
+
+// ---> BANNER section css start
+.banner {
+    .banner-part img {
+        height: 850px;
+    }
+}
+// ---> BANNER section css end
+
+// ---> ABOUT section css start
+.aboutMe {
+    @include padding();
+
+    .first-part .image-part img {
+        width: 70%;
+    }
+}
+// ---> ABOUT section css end
+
+// ---> CONTACT section css end
+.contact
+{
+    margin-bottom: 80px;
+}
+// ---> CONTACT section css end
+
+// ---> FOOTER section css start
+.footer {
+    .social_cite a {
+        font-size: 38px;
+        margin: 0px 7px;
+    }
+}
+
+//  ---> FOOTER section css end
+
+
+
+// --------------------------------- O ------------------------
+// MAIN SASS END HERE
+// --------------------------------- O ------------------------
