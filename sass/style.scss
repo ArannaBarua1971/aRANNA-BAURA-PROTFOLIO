@@ -7,10 +7,11 @@
 // ---------------------------------------------------------------------------------------------
 
 /*Bootstrap common css */
-html,body
-{
+html,
+body {
     scroll-behavior: smooth;
 }
+
 h1,
 h2,
 h3,
@@ -53,24 +54,70 @@ a:hover {
     .banner-part img {
         height: 850px;
     }
+
+    .title h5 {
+        color: $text_color1;
+    }
+
+    .banner_content p {
+        font-size: 40px;
+        text-align: right;
+        background: $text_color2;
+        color: $text_color1;
+        display: inline;
+    }
 }
+
 // ---> BANNER section css end
 
 // ---> ABOUT section css start
 .aboutMe {
     @include padding();
+    border: 1px solid $common_color2;
+    border-radius: 5px;
 
     .first-part .image-part img {
         width: 70%;
     }
 }
+
+// ---> ABOUT section css end
+
+// ---> ABOUT section css start
+.sills {
+    @include padding();
+
+    .skill_pakages {
+        div:nth-child(2n) {
+            margin-top: 30px;
+        }
+        .card {
+            border: 0px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            text-align: center;
+
+            img {
+                width: 55%;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            strong {
+                font-size: 20px;
+                padding: 0px !important;
+            }
+        }
+    }
+}
+
 // ---> ABOUT section css end
 
 // ---> CONTACT section css end
-.contact
-{
+.contact {
     margin-bottom: 80px;
 }
+
 // ---> CONTACT section css end
 
 // ---> FOOTER section css start
