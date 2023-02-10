@@ -3,6 +3,8 @@
 @import "_mixin";
 
 
+
+
 // ------------------------------------------- o --------------------------------------------------
 // ---------------------------------------------------------------------------------------------
 
@@ -152,8 +154,8 @@ a:hover {
 
 // ---> ABOUT section css end
 
-// ---> ABOUT section css start
-.sills {
+// ---> SKILLS section css start
+.skills {
     @include padding();
 
     .skill_pakages {
@@ -165,6 +167,7 @@ a:hover {
             border: 0px;
             box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
             text-align: center;
+            width: 18rem;
 
             img {
                 width: 55%;
@@ -181,7 +184,7 @@ a:hover {
     }
 }
 
-// ---> ABOUT section css end
+// ---> SKILLS section css end
 
 // ---> CONTACT section css end
 .contact {
@@ -201,6 +204,9 @@ a:hover {
 //  ---> FOOTER section css end
 
 
+// RESPONSIVE CODE START
+@import "_responsive";
+// RESPONSIVE CODE END
 
 // --------------------------------- O ------------------------
 // MAIN SASS END HERE

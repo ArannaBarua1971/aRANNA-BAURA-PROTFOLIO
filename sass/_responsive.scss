@@ -1,2 +1,213 @@
-// for large device
-@media (min-w)
+// for extra tlarge device scss start
+
+@media (max-width: 1199.98px) and (min-width: 992px) {
+
+    // ---> BANNER section css start
+    .banner {
+        .banner-part img {
+            height: 655px;
+        }
+
+        .banner_content p {
+            font-size: 33px;
+        }
+    }
+
+    // ---> BANNER section css end
+
+    // ---> SKILLS section css end
+    .skills {
+        .header_part p {
+            font-size: 14px;
+        }
+
+        .skill_pakages .card {
+            width: 15rem;
+        }
+    }
+
+    // ---> SKILLS section css end
+}
+
+// for extra large device scss start
+
+
+// for large device scss start
+@media (max-width: 991.98px) and (min-width: 768px) {
+
+    // ---> BANNER section css start
+    .banner {
+        position: relative;
+
+        .banner-part img {
+            height: 709px;
+        }
+
+        .banner_content {
+            position: absolute;
+            bottom: 102px;
+
+            p {
+                font-size: 33px;
+            }
+        }
+    }
+
+    // ---> BANNER section css end
+
+    // ---> ABOUTME section css end
+    .aboutMe {
+        .first-part {
+            margin-bottom: 43px;
+        }
+    }
+
+    // ---> ABOUTME section css end
+
+    // ---> SKILLS section css end
+    .skills {
+        .header_part p {
+            font-size: 14px;
+        }
+
+        .skill_pakages {
+            div:nth-child(n) {
+                margin-top: 20px;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        // ---> SKILLS section css end
+    }
+}
+
+// for large device scss end
+
+
+// for small device scss start
+@media (max-width: 767.98px) and (min-width: 576px) {
+
+    // ---> BANNER section css start
+    .banner {
+        background: $common_color2;
+        padding: 0px 0px 10px;
+        .banner-part img {
+            height: 535px;
+        }
+
+        .banner_content {
+            bottom: 102px;
+
+            p {
+                font-size: 33px;
+            }
+        }
+    }
+
+    // ---> BANNER section css end
+
+    // ---> ABOUTME section css end
+    .aboutMe {
+        .first-part {
+            margin-bottom: 43px;
+        }
+    }
+
+    // ---> ABOUTME section css end
+
+    // ---> SKILLS section css end
+    .skills {
+        .header_part p {
+            font-size: 14px;
+        }
+
+        .skill_pakages {
+            div:nth-child(n) {
+                margin: 10px 0px;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+            }
+            .card {
+                width: 15rem;
+            }
+        }
+
+        // ---> SKILLS section css end
+    }
+}
+
+// for small device scss end
+
+// for mobile device scss start
+@media (max-width: 575.98px) {
+
+    // ---> BANNER section css start
+    .banner {
+        background: $common_color2;
+        padding: 0px 0px 10px;
+        .banner-part img {
+            height: 370px;
+        }
+
+        .banner_content {
+            bottom: 102px;
+
+            p {
+                font-size: 33px;
+            }
+        }
+    }
+
+    // ---> BANNER section css end
+
+    // ---> ABOUTME section css end
+    .aboutMe {
+        padding: 98px 0px;
+        .first-part {
+            margin-bottom: 43px;
+            .image-part{
+                display: flex;
+                justify-content: center;
+            }
+            .card-text{
+                text-align: justify;
+            }
+        }
+    }
+
+    // ---> ABOUTME section css end
+
+    // ---> SKILLS section css end
+    .skills {
+        padding: 100px 0px 98px;
+        .header_part p {
+            font-size: 14px;
+        }
+
+        .skill_pakages {
+            div:nth-child(2n) {
+                margin-left: 10px;
+            }
+            div{
+                margin: 10px 0px;
+                display: flex;
+                justify-content: center;
+            }
+            .card {
+                width: 10rem;
+                strong{
+                    font-size: 15px;
+                }
+            }
+        }
+
+        // ---> SKILLS section css end
+    }
+}
+
+// for mobile device scss end

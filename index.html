@@ -64,10 +64,10 @@
     <section id="banner" class="banner">
         <div class="container">
             <div class="row align-items-center">
-                <div id="carouselExampleDark" class="carousel carousel-dark banner-part col-lg-8">
+                <div id="carouselExampleDark" class="carousel carousel-dark banner-part col-lg-8 col-md-12">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="assets/img/banner.png" class="d-block img-fluid" alt="banner-pic">
+                            <img src="assets/img/banner.png" class="img-fluid" alt="banner-pic">
                             <div class="carousel-caption title">
                                 <h5>Aranna Baura</h5>
                             </div>
@@ -96,75 +96,75 @@
     <section id="aboutMe" class="aboutMe">
         <div class="container">
             <div class="row align-items-center">
-                <div class="first-part col-lg-6">
-                    <div class="image-part">
+                <div class="first-part col-lg-6 d-flex align-items-center flex-wrap">
+                    <div class="image-part col-lg-12 col-md-7">
                         <img src="assets/img/my_pic.png" class="card-img-top" alt="about-me">
                     </div>
-                    <div class="card-body mt-3">
+                    <div class="card-body mt-3 col-lg-12 col-md-5">
                         <h5 class="card-title">about me</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui corporis quod
                             impedit dolore. Dolorem perspiciatis quos error quisquam illum repudiandae?</p>
-                        <a href="#" class="btn btn-primary mt-3">Download CV</a>
+                        </div>
+                        <a href="assets/css/bootstrap.min.css" download><i class="fa fa-download" aria-hidden="true"></i></a>
                     </div>
-                </div>
-                <div class="second-part col-lg-6">
-                    <div class="header_part mb-3">
-                        <h2>Fact About Me!</h2>
-                    </div>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    <div class="second-part col-lg-6">
+                        <div class="header_part mb-3">
+                            <h2>Fact About Me!</h2>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     Education qualification
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>1.Diploma in Computer Science Engineering</strong><br>
-                                    <div class="details ms-4 mt-3">
-                                        <p>Start at 2020 .ends will be in 2024</p>
-                                        <p>CGPA:(unknown)</p>
-                                    </div>
-
-                                    <strong>2.Secondary School Certificate(SSC)</strong>
-                                    <div class="details ms-4 mt-3">
-                                        <p>finshed this exam in 2020.</p>
-                                        <p>GPA:5.00(A+)</p>
-                                    </div>
-
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>1.Diploma in Computer Science Engineering</strong><br>
+                                <div class="details ms-4 mt-3">
+                                    <p>Start at 2020 .ends will be in 2024</p>
+                                    <p>CGPA:(unknown)</p>
                                 </div>
+                                
+                                <strong>2.Secondary School Certificate(SSC)</strong>
+                                <div class="details ms-4 mt-3">
+                                    <p>finshed this exam in 2020.</p>
+                                    <p>GPA:5.00(A+)</p>
+                                </div>
+                                
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Dreams & Creativity
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Dreams</strong>
-                                    <p>I have a dreams to become</p>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Dreams & Creativity
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Dreams</strong>
+                        <p>I have a dreams to become</p>
+                    </div>
+                </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Dreams & Creativity
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Dreams & Creativity
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Dreams</strong>
-                                    <p>I have a dreams to become</p>
-                                </div>
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Dreams</strong>
+                                <p>I have a dreams to become</p>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -175,10 +175,10 @@
     <!-- // ABOUT section part end-->
 
     <!-- SKILL section part start-->
-    <section id="skills" class="sills">
+    <section id="skills" class="skills">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-xl-6 col-lg-5 col-md-12">
                     <div class="topics_skill">
                         <div class="header_part">
                             <h2>My fluecy in Language</h2>
@@ -253,34 +253,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="skill_pakages d-flex flex-wrap">
-                        <div class="col-lg-6 mb-3">
-                            <div class="card" style="width: 18rem;">
+                <div class="col-xl-6 col-lg-7 col-md-12 d-flex align-items-center">
+                    <div class="skill_pakages d-flex flex-wrap align-items-center">
+                        <div class="mb-xl-3 col-sm-6">
+                            <div class="card">
                                 <img src="assets/img/webdesgin.png" class="card-img-top img-fluid mt-3" alt="vector">
                                 <div class="card-body">
                                     <strong class="card-text">Web Desgin</strong>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-3">
-                            <div class="card" style="width: 18rem;">
+                        <div class="mb-xl-3 col-sm-6">
+                            <div class="card">
                                 <img src="assets/img/webdesgin.png" class="card-img-top img-fluid mt-3" alt="vector">
                                 <div class="card-body">
                                     <strong class="card-text">Web Desgin</strong>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-3">
-                            <div class="card" style="width: 18rem;">
+                        <div class="mb-xl-3 col-sm-6">
+                            <div class="card">
                                 <img src="assets/img/webdesgin.png" class="card-img-top img-fluid mt-3" alt="vector">
                                 <div class="card-body">
                                     <strong class="card-text">Web Desgin</strong>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-3">
-                            <div class="card" style="width: 18rem;">
+                        <div class="mb-xl-3 col-sm-6">
+                            <div class="card">
                                 <img src="assets/img/webdesgin.png" class="card-img-top img-fluid mt-3" alt="vector">
                                 <div class="card-body">
                                     <strong class="card-text">Web Desgin</strong>
