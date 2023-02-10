@@ -74,7 +74,8 @@
             div:nth-child(n) {
                 margin-top: 20px;
             }
-            div{
+
+            div {
                 display: flex;
                 justify-content: center;
             }
@@ -94,6 +95,7 @@
     .banner {
         background: $common_color2;
         padding: 0px 0px 10px;
+
         .banner-part img {
             height: 535px;
         }
@@ -128,10 +130,12 @@
             div:nth-child(n) {
                 margin: 10px 0px;
             }
-            div{
+
+            div {
                 display: flex;
                 justify-content: center;
             }
+
             .card {
                 width: 15rem;
             }
@@ -150,6 +154,7 @@
     .banner {
         background: $common_color2;
         padding: 0px 0px 10px;
+
         .banner-part img {
             height: 370px;
         }
@@ -168,13 +173,16 @@
     // ---> ABOUTME section css end
     .aboutMe {
         padding: 98px 0px;
+
         .first-part {
             margin-bottom: 43px;
-            .image-part{
+
+            .image-part {
                 display: flex;
                 justify-content: center;
             }
-            .card-text{
+
+            .card-text {
                 text-align: justify;
             }
         }
@@ -185,29 +193,31 @@
     // ---> SKILLS section css end
     .skills {
         padding: 100px 0px 98px;
+
         .header_part p {
             font-size: 14px;
         }
 
         .skill_pakages {
+            justify-content: center;
             div:nth-child(2n) {
-                margin-left: 10px;
+                margin: 0px;
             }
-            div{
-                margin: 10px 0px;
-                display: flex;
-                justify-content: center;
-            }
+            
             .card {
-                width: 10rem;
-                strong{
+                margin-top: 15px;
+                width: 95%;
+
+                strong {
                     font-size: 15px;
                 }
             }
         }
 
-        // ---> SKILLS section css end
     }
+
+    // ---> SKILLS section css end
 }
+
 
 // for mobile device scss end
